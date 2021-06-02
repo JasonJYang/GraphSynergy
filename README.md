@@ -13,6 +13,13 @@ The code has been tested running under Python 3.7. The required package are as f
 * networkx == 2.5
 * pandas == 1.1.2
 
+# Installation
+To install the required packages for running GraphSynergy, please use the following command first
+```bash
+pip install -r requirements.txt
+```
+If you meet any problems when installing pytorch, please refer to [pytorch official website](https://pytorch.org/)
+
 # Example to Run the Codes
 * DrugCombDB
 ```bash
