@@ -10,6 +10,15 @@ def accuracy(y_pred, y_true):
     """
     return metrics.accuracy_score(y_pred=y_pred.round(), y_true=y_true)
 
+def precision(y_pred, y_true):
+    """
+    Note that the input y_pred and y_true are both numpy array.
+    Args:
+        y_pred (numpy.array): 
+        y_true (numpy.array): [description]
+    """
+    return metrics.precision_score(y_pred=y_pred.round(), y_true=y_true)
+
 def recall(y_pred, y_true):
     """
     Note that the input y_pred and y_true are both numpy array.

@@ -35,7 +35,7 @@
     },
     "loss": "bce_withlogits_loss",
     "metrics": [
-        "accuracy", "recall", "roc_auc", "pr_auc", "f1_score"
+        "accuracy", "precision", "recall", "roc_auc", "pr_auc", "f1_score"
     ],
     "lr_scheduler": {
         "type": "StepLR",
